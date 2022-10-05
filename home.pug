@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleContact.css
+
+block content
+    
+    section#introSection  
+        div.small1 Welcome To Dance-Do-Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+        
+
+    section#missionSection  
+        div 
+           h1 Our Mission 
+        div.card
+            p Dance prefection.
+            div.im1
+             img(src="static/s1.png", alt="dance perfection", srcset="")
+        div.card
+            p Dance the way you like.
+            div.im3
+             img(src="static/s2.png", alt="dance perfection", srcset="")
+        div.card
+            p Expert teaching.
+            div.im2
+             img(src="static/s3.png", alt="dance perfection", srcset="")
+
+    section#sponsorSection  
+        div Our sponsors
+        div.i1
+            img(src="static/google.png", alt="google", srcset="")
+        div.i2 
+            img(src="static/fb.png", alt="fb", srcset="")
+        div.i3 
+            img(src="static/adobe.png", alt="adobe", srcset="")
+        div.i4 
+            img(src="static/tesla.png", alt="tesla", srcset="")
+        div.i5 
+            img(src="static/nasa.png", alt="nasa", srcset="")
+        div.i6 
+            img(src="static/cred.png", alt="cred", srcset="")

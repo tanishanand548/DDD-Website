@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Merienda&family=Poppins:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    height: 50px;
+    background-color: aqua;
+    position: sticky;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 17px 0px;
+}
+
+#navbar ul li a {
+    color: black;
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    padding: 6px 11px;
+    font-weight: bolder;
+}
+
+#navbar ul li a:hover {
+    color: blue;
+}
+
+#introSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-image: url('static/dance.jpg');
+    background-size: cover;
+    font-size: 2rem;
+}
+
+
+#introSection div.small {
+    font-size: 27px;
+}
+
+#introSection div {
+    font-family: 'Quintessential', cursive;
+}
+
+
+#missionSection {
+    background: #bfd4cf;
+    width: 100%;
+    height: 434px;
+}
+
+#missionSection div h1 {
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    padding: 40px 0px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 57px 32px;
+    height: 178px;
+    box-shadow: 0px 0px 27px -4px grey;
+
+}
+
+.card p {
+    padding: 7px 0px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 79px 147px;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    background-color: rgb(139, 135, 135);
+}
+
+.im1 img {
+    height: 158px;
+}
+
+.im2 img {
+    height: 158px;
+}
+
+.im3 img {
+    height: 158px;
+}
+
+#sponsorSection {
+    width: 100%;
+    height: 400px;
+    background-color: #31312bb3;
+}
+
+#sponsorSection div {
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding-top: 3%;
+}
+
+#sponsorSection div.i1 img {
+    height: 232px;
+    float: left;
+}
+
+#sponsorSection div.i2 img {
+    height: 169px;
+    float: left;
+    margin-left: 28px;
+    margin-top: -8px;
+}
+
+#sponsorSection div.i3 img {
+    height: 169px;
+    float: left;
+    margin-left: -26px;
+    margin-top: -44px;
+}
+
+#sponsorSection div.i4 img {
+    height: 169px;
+    float: left;
+    margin-left: -71px;
+    margin-top: -100px;
+}
+
+#sponsorSection div.i5 img {
+    height: 169px;
+    float: left;
+    margin-left: 14px;
+    margin-top: -127px;
+}
+
+#sponsorSection div.i6 img {
+    height: 216px;
+    float: left;
+    margin-left: 7px;
+    margin-top: -191px;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+
+}
+
+#footer div#txt h2{
+   text-align: center;
+
+}
+
+#navbar ul div#logo img{
+    height: 48px;
+    animation: logo;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes logo {
+    from{
+        rotate: 0deg;
+        
+    }
+
+    to{
+        rotate: 360deg;
+    }
+    
+}

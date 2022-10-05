@@ -1,0 +1,36 @@
+h1#cont {
+    margin-top: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(115, 134, 137);
+}
+
+.myInput {
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    padding: 18px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button {
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    font-size: 26px;
+    margin-bottom: 20%;
+}
+
+
+@media (max-width:500px) {
+    #footer {
+        margin-bottom: 40%;
+    }
+}
